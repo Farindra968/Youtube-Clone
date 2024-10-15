@@ -167,7 +167,7 @@ const Sidebar = ({isExpanded }) => {
     },
   ];
   return (
-    <aside  className={`${isExpanded ? 'w-[17.5%] overflow-y-scroll' : 'w-[8%] overflow-y-hidden'} h-[calc(100vh-4.525rem)]  overflow-x-hidden scrollbar-thin  `}> 
+    <aside  className={`${isExpanded ?  ' xs:w-[65%] xs:z-50  w-auto hover:overflow-y-scroll overflow-y-hidden ' : ' xs:hidden w-auto overflow-y-hidden'}  h-[calc(100vh-3.6rem)]  bg-white overflow-x-hidden scrollbar-thin  `}> 
 
       {/*Sidebar1 */}
       <div className=" h-auto ">

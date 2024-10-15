@@ -4,7 +4,7 @@ import Codeit from '../assets/Codeit.jpg'
 
 const VideoCard = () => {
   return (
-    <div className="max-w-sm rounded overflow-hidden ">
+    <div className="mx-w-sm rounded overflow-hidden ">
     <div className="relative">
       <img
         className="w-full rounded-lg"

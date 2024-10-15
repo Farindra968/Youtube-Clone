@@ -8,6 +8,9 @@ export default {
   ],
   theme: {
     extend: {
+      screens: {
+        xs: {'min': '320px', 'max': '700px'},
+      },
       fontFamily: {
         roboto: ["roboto", "Arial", "sans-serif"]
       }
